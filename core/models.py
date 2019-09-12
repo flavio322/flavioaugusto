@@ -13,7 +13,7 @@ class Contato(models.Model):
         return self.nome
 
 
-class Livraria(models.Model):gi
+class Livraria(models.Model):
     Titulo = models.CharField(max_length=50)
     Nome_do_autor = models.CharField(max_length=200)
     Assunto = models.CharField(max_length=50)
